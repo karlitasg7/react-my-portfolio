@@ -1,0 +1,18 @@
+.social-list {
+    display: block;
+    margin: 10px;
+}
+
+.social-list a {
+    flex: 10%;
+    margin: 5px;
+}
+
+.social-list a svg {
+    width: 30px;
+    height: 30px;
+}
+
+.social-list a svg:hover {
+    fill: lightblue;
+}
