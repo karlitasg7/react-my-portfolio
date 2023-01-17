@@ -1,11 +1,11 @@
 .social-list {
     display: block;
-    margin: 10px;
+    margin: 60px;
 }
 
 .social-list a {
     flex: 10%;
-    margin: 5px;
+    margin: 8px;
 }
 
 .social-list a svg {

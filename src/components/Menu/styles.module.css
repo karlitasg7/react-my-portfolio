@@ -1,0 +1,9 @@
+.menu-section {
+    display: flex;
+    justify-content: end;
+    padding: 0px 100px 0px 0px;
+}
+
+.menu-section a {
+    padding: 10px;
+}
