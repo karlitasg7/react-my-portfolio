@@ -11,8 +11,8 @@ function App() {
         <div className={styles.app}>
             <Menu/>
             <About/>
-            <ListOfSocial/>
             <Experience/>
+            <ListOfSocial/>
         </div>
     );
 }
