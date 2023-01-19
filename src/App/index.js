@@ -3,6 +3,7 @@ import {ListOfSocial} from "../components/ListOfSocial";
 import {About} from "../components/About";
 import {Menu} from "../components/Menu";
 import {Experience} from "../components/Experience";
+import {ProjectsList} from "../components/ProjectsList";
 
 import styles from "./App.css"
 
@@ -12,6 +13,7 @@ function App() {
             <Menu/>
             <About/>
             <Experience/>
+            <ProjectsList/>
             <ListOfSocial/>
         </div>
     );

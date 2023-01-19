@@ -4,7 +4,7 @@ import styles from "./styles.module.css"
 export const Experience = () => {
     return (
         <section className={styles["experience-section"]}>
-            my experience
+
         </section>
     )
 }
