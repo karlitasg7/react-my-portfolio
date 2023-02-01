@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./styles.module.css"
+import {About} from "../About";
 
 export const Project = ({name, url, stack, description, git}) => {
     return (
@@ -8,11 +9,13 @@ export const Project = ({name, url, stack, description, git}) => {
             <h2>{name}</h2>
             <p>{description}</p>
 
-            <p>URL: <a href={url} target="_blank">{url} </a></p>
+            {url && (
+                <p>URL: <a href={url} target="_blank" rel="noreferrer">{url} </a></p>
+            )}
 
             <p>Stack: {stack}</p>
 
-            <p>Source Code: <a href={git} target="_blank">{git}</a></p>
+            <p>Source Code: <a href={git} target="_blank" rel="noreferrer">{git}</a></p>
 
         </section>
     )

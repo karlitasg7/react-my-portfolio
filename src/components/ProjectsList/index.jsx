@@ -15,6 +15,13 @@ export const ProjectsList = () => {
                 stack="React"
             />
 
+            <Project
+                name="Advent Of Code"
+                description="This project is my solutions to Advent Of Code and Advent Of Code JS"
+                git="https://github.com/karlitasg7/AdventOfCode"
+                stack="Java, JavaScript"
+            />
+
         </section>
     )
 }
