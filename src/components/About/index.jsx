@@ -21,7 +21,7 @@ export const About = () => {
                 <p>I love to solve real life problems using technology</p>
                 <p>
                     If you like my profile and you want to know more about me, please contact me to
-                    <span className={styles["about-description-email"]}> hi@karlasequen.com</span>
+                    <span className={styles["about-description-email"]}> <a href="mailto:hi@karlasequen.com?subject=contact">hi@karlasequen.com</a></span>
                 </p>
             </div>
             <div className={styles["about-image"]}>

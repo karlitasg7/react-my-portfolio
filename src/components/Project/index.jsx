@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from "./styles.module.css"
-import {About} from "../About";
 
 export const Project = ({name, url, stack, description, git}) => {
     return (
