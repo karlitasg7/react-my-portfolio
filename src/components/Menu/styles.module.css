@@ -32,6 +32,7 @@ nav li {
     background-color: lightblue;
     border-radius: 5px;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .menu li {
