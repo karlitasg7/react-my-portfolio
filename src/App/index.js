@@ -1,3 +1,4 @@
+import React from "react";
 import './App.css';
 import {ListOfSocial} from "../components/ListOfSocial";
 import {About} from "../components/About";
@@ -8,12 +9,28 @@ import {ProjectsList} from "../components/ProjectsList";
 import styles from "./App.css"
 
 function App() {
+
+    const [selectedOption, setSelectedOption] = React.useState('about');
+
     return (
         <div className={styles.app}>
-            <Menu/>
-            <About/>
-            <Experience/>
-            <ProjectsList/>
+            <Menu
+                selectedOption={selectedOption}
+                setSelectedOption={setSelectedOption}
+            />
+
+            {selectedOption === 'about' && (
+                <About/>
+            )}
+
+            {selectedOption === 'experience' && (
+                <Experience/>
+            )}
+
+            {selectedOption === 'projects' && (
+                <ProjectsList/>
+            )}
+
             <ListOfSocial/>
         </div>
     );

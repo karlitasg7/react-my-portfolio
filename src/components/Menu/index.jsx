@@ -1,16 +1,16 @@
 import React from 'react'
 import styles from "./styles.module.css"
 
-export const Menu = () => {
+export const Menu = ({selectedOption, setSelectedOption}) => {
     return (
         <nav className={styles["navbar"]}>
             <ul className={styles["nav-links"]}>
                 <div className={styles["menu"]}>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">My Experience</a></li>
-                    <li><a href="/">Education</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li onClick={() => setSelectedOption('about')}>About</li>
+                    <li onClick={() => setSelectedOption('experience')}>My Experience</li>
+                    <li onClick={() => setSelectedOption('education')}>Education</li>
+                    <li onClick={() => setSelectedOption('projects')}>Projects</li>
+                    <li onClick={() => setSelectedOption('contact')}>Contact Me</li>
                 </div>
             </ul>
         </nav>
