@@ -6,7 +6,7 @@ import {Menu} from "../components/Menu";
 import {Experience} from "../components/Experience";
 import {ProjectsList} from "../components/ProjectsList";
 import {Education} from "../components/Education";
-
+import {Contact} from "../components/Contact";
 import styles from "./App.css"
 
 function App() {
@@ -34,6 +34,10 @@ function App() {
 
             {selectedOption === 'education' && (
                 <Education/>
+            )}
+
+            {selectedOption === 'contact' && (
+                <Contact/>
             )}
 
             <ListOfSocial/>
