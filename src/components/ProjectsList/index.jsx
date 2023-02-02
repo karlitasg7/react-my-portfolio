@@ -22,6 +22,13 @@ export const ProjectsList = () => {
                 stack="Java, JavaScript"
             />
 
+            <Project
+                name="My Portfolio with Python and Flask"
+                description="This is a simple project using python and flask to make my portfolio"
+                git="https://github.com/karlitasg7/my-portfolio"
+                stack="Python, Flask"
+            />
+
         </section>
     )
 }
