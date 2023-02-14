@@ -6,14 +6,16 @@ export const Certification = ({title, school, date, link, credential}) => {
         <section className={styles["certification-section"]}>
 
             <h3>{title}</h3>
-            <span>{school}</span>
-            <span>{date}</span>
+            <p>{school}</p>
+            <p>{date}</p>
 
             {credential && (
-                <span>{credential}</span>
+                <p>Credential ID {credential}</p>
             )}
 
-            <span>{link}</span>
+            {link && (
+                <a href={link} target="_blank">View</a>
+            )}
 
         </section>
     )
