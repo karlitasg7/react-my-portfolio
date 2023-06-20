@@ -14,7 +14,7 @@ export const Certification = ({title, school, date, link, credential}) => {
             )}
 
             {link && (
-                <a href={link} target="_blank">View</a>
+                <a href={link} target="_blank" rel="noreferrer">View</a>
             )}
 
         </section>

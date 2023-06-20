@@ -1,5 +1,5 @@
 .section-social-list {
-    background: lightgray;
+    background: #55B4FA;
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -22,5 +22,5 @@
 }
 
 .social-list a svg:hover {
-    fill: deepskyblue;
+    fill: blue;
 }

@@ -11,7 +11,7 @@ export const EducationList = () => {
             <Certification
                 title="Engineer’s degree, Information Technology"
                 school="Universidad Mariano Galvez de Guatemala"
-                date="April 2013"
+                date="April 2014"
             />
 
             <h2>CERTIFICATIONS</h2>
