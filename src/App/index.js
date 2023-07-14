@@ -3,11 +3,11 @@ import './App.css';
 import {ListOfSocial} from "../components/ListOfSocial";
 import {About} from "../components/About";
 import {Menu} from "../components/Menu";
-import {Experience} from "../components/Experience";
 import {ProjectsList} from "../components/ProjectsList";
 import {EducationList} from "../components/EducationList";
 import {Contact} from "../components/Contact";
 import styles from "./App.css"
+import ExperienceList from "../components/ExperienceList";
 
 function App() {
 
@@ -25,7 +25,7 @@ function App() {
             )}
 
             {selectedOption === 'experience' && (
-                <Experience/>
+                <ExperienceList/>
             )}
 
             {selectedOption === 'projects' && (
