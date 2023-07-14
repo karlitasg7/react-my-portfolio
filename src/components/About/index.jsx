@@ -18,7 +18,7 @@ export const About = () => {
                     technologies and
                     I am a person who likes to learn something new every day,
                 </p>
-                <p>I love to solve real life problems using technology</p>
+                <p>I really enjoy solving problems through technology.</p>
                 <p>
                     If you like my profile and you want to know more about me, please contact me to
                     <span className={styles["about-description-email"]}> <a href="mailto:hi@karlasequen.com?subject=contact">hi@karlasequen.com</a></span>
