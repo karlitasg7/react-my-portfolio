@@ -9,7 +9,7 @@ export const EducationList = () => {
                 {
                     name: 'Engineer’s degree, Information Technology',
                     institution: 'Universidad Mariano Galvez de Guatemala',
-                    year: 'April 2014',
+                    date: 'April 2014',
                 },
             ]
         },
@@ -19,20 +19,20 @@ export const EducationList = () => {
                 {
                     name: 'AZ 900, Azure Fundamentals',
                     institution: 'Microsoft',
-                    year: '2022',
+                    date: '2022',
                     link: 'https://www.credly.com/badges/4966805b-47f0-419a-b067-dede229c43ac'
                 },
                 {
                     name: 'Scrum Foundation',
                     institution: 'CertiProf',
-                    year: '2022',
+                    date: '2022',
                     credential: '73756906',
                     link: 'https://www.credly.com/badges/7cf597be-800e-45fe-b61a-896c30e9adf9'
                 },
                 {
                     name: 'Full Stack Observability Practitioner Exam',
                     institution: 'New Relic, Inc.',
-                    year: '2022',
+                    date: '2022',
                     credential: '53502376',
                     link: 'https://www.credential.net/94ccd70d-b035-4fbe-8fd2-1cd4af64873e'
                 },

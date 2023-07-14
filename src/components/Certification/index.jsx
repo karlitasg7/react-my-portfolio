@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Certification = ({item}) => {
-    const {name, institution, year, link, credential} = item;
+    const {name, institution, date, link, credential} = item;
 
     return (
         <div className="bg-white shadow p-4 rounded mb-4">
@@ -10,7 +10,7 @@ export const Certification = ({item}) => {
                 <strong></strong> {institution}
             </p>
             <p className="mb-2">
-                <strong>Date:</strong> {year}
+                <strong>Date:</strong> {date}
             </p>
             {credential && (
                 <p className="mb-2">
