@@ -10,7 +10,7 @@ export const Certification = ({item}) => {
                 <strong></strong> {institution}
             </p>
             <p className="mb-2">
-                <strong>Año:</strong> {year}
+                <strong>Date:</strong> {year}
             </p>
             {credential && (
                 <p className="mb-2">
