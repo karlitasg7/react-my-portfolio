@@ -6,7 +6,7 @@ export const About = () => {
             <div className="flex items-center justify-center lg:justify-start">
                 <div className="w-full lg:w-2/3 flex items-center">
                     <div className="mr-8">
-                        <h2 className="text-3xl font-bold mb-4 text-left">About me</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-left underline">About me</h2>
                         <p className="text-gray-700 mb-4">
                             I'm a Software Engineer with 12+ years of experience developing web
                             application with
