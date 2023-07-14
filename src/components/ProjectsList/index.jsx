@@ -1,34 +1,40 @@
 import React from 'react'
-import styles from "./styles.module.css"
 import {Project} from "../Project";
 
 export const ProjectsList = () => {
+
+    const projects = [
+        {
+            name: 'Todo App',
+            description: 'Simple Todo App',
+            stack: 'React',
+            gitUrl: 'https://github.com/karlitasg7/react-todo-app',
+            projectUrl: 'https://karlasequen.com/todoapp/'
+        },
+        {
+            name: 'Advent Of Code',
+            description: 'This project is my solutions to Advent Of Code and Advent Of Code JS',
+            stack: 'Java, JavaScript',
+            gitUrl: 'https://github.com/karlitasg7/AdventOfCode',
+        },
+        {
+            name: 'My Portfolio with Python and Flask',
+            description: 'This is a simple project using python and flask to make my portfolio',
+            stack: 'Python, Flask',
+            gitUrl: 'https://github.com/karlitasg7/my-portfolio',
+        },
+    ];
+
     return (
-        <section className={styles["projects-list-section"]}>
-            <h1>The next list are some personal projects to learn and practice</h1>
+        <div className="max-w-2xl mx-auto px-4 py-20">
+            <h2 className="text-3xl font-bold mb-4 text-left underline">My projects</h2>
+            <p className="text-lg text-gray-600 mb-4">
+                The next list are some personal projects to learn and practice
+            </p>
 
-            <Project
-                name="Todo App"
-                description="Simple Todo App"
-                url="https://karlasequen.com/todoapp/"
-                git="https://github.com/karlitasg7/react-todo-app"
-                stack="React"
-            />
-
-            <Project
-                name="Advent Of Code"
-                description="This project is my solutions to Advent Of Code and Advent Of Code JS"
-                git="https://github.com/karlitasg7/AdventOfCode"
-                stack="Java, JavaScript"
-            />
-
-            <Project
-                name="My Portfolio with Python and Flask"
-                description="This is a simple project using python and flask to make my portfolio"
-                git="https://github.com/karlitasg7/my-portfolio"
-                stack="Python, Flask"
-            />
-
-        </section>
+            {projects.map((project, index) => (
+                <Project key={index} project={project}/>
+            ))}
+        </div>
     )
 }

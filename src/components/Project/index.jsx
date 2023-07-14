@@ -1,21 +1,43 @@
 import React from 'react'
-import styles from "./styles.module.css"
 
-export const Project = ({name, url, stack, description, git}) => {
+export const Project = ({project}) => {
+    const {name, description, stack, gitUrl, projectUrl} = project;
+
     return (
-        <section className={styles["project-section"]}>
+        <div className="bg-white shadow p-4 rounded mb-4">
+            <h2 className="text-lg font-bold mb-2">{name}</h2>
+            <p className="text-gray-600 mb-2">{description}</p>
+            <p className="mb-2">
+                <strong>Stack Utilizado:</strong> {stack}
+            </p>
 
-            <h2>{name}</h2>
-            <p>{description}</p>
-
-            {url && (
-                <p>URL: <a href={url} target="_blank" rel="noreferrer">{url} </a></p>
+            {gitUrl && (
+                <p className="mb-2">
+                    <strong>Source Code:</strong>{' '}
+                    <a
+                        href={gitUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:underline"
+                    >
+                        {gitUrl}
+                    </a>
+                </p>
             )}
 
-            <p>Stack: {stack}</p>
-
-            <p>Source Code: <a href={git} target="_blank" rel="noreferrer">{git}</a></p>
-
-        </section>
+            {projectUrl && (
+                <p className="mb-2">
+                    <strong>URL:</strong>{' '}
+                    <a
+                        href={projectUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:underline"
+                    >
+                        {projectUrl}
+                    </a>
+                </p>
+            )}
+        </div>
     )
 }
