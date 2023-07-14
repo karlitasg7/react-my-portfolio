@@ -25,7 +25,18 @@ export const About = () => {
                         </p>
                         <p className="text-gray-700 mb-4">
                             If you like my profile and you want to know more about me, please contact me to
-                            <span> <a href="mailto:hi@karlasequen.com?subject=contact">hi@karlasequen.com</a></span>
+                            <span className="text-blue-500 cursor-pointer hover:underline"> <a
+                                href="mailto:hi@karlasequen.com?subject=contact">hi@karlasequen.com</a>
+                            </span>
+                        </p>
+                        <p className="text-gray-700 mb-4">
+                            <a
+                                href={'/assets/certificates/CVKarlaSequen.pdf'}
+                                className="inline-block bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600"
+                                download
+                            >
+                                Download my CV
+                            </a>
                         </p>
                     </div>
                     <div className="rounded-full overflow-hidden mx-auto lg:ml-auto">
