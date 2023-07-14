@@ -1,22 +1,35 @@
 import React from 'react'
-import styles from "./styles.module.css"
 
-export const Certification = ({title, school, date, link, credential}) => {
+export const Certification = ({item}) => {
+    const {name, institution, year, link, credential} = item;
+
     return (
-        <section className={styles["certification-section"]}>
-
-            <h3>{title}</h3>
-            <p>{school}</p>
-            <p>{date}</p>
-
+        <div className="bg-white shadow p-4 rounded mb-4">
+            <h3 className="text-lg font-bold mb-2">{name}</h3>
+            <p className="text-gray-600 mb-2">
+                <strong></strong> {institution}
+            </p>
+            <p className="mb-2">
+                <strong>Año:</strong> {year}
+            </p>
             {credential && (
-                <p>Credential ID {credential}</p>
+                <p className="mb-2">
+                    Credential ID {credential}
+                </p>
             )}
-
             {link && (
-                <a href={link} target="_blank" rel="noreferrer">View</a>
+                <p className="mb-2">
+                    <a
+                        href={link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:underline"
+                    >
+                        View
+                    </a>
+                </p>
             )}
+        </div>
 
-        </section>
     )
 }
