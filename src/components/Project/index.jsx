@@ -8,7 +8,7 @@ export const Project = ({project}) => {
             <h2 className="text-lg font-bold mb-2">{name}</h2>
             <p className="text-gray-600 mb-2">{description}</p>
             <p className="mb-2">
-                <strong>Stack Utilizado:</strong> {stack}
+                <strong>Stack:</strong> {stack}
             </p>
 
             {gitUrl && (

@@ -12,6 +12,18 @@ export const ProjectsList = () => {
             projectUrl: 'https://karlasequen.com/todoapp/'
         },
         {
+            name: 'Adventure Project',
+            description: 'This project is a CRUD for employees using the database Adventure Works, including the API and Web application',
+            stack: 'Java, Angular',
+            gitUrl: 'https://github.com/karlitasg7/AdventureProject',
+        },
+        {
+            name: 'Payments Project',
+            description: 'This project is a test using microservices, implementing Eureka Server, Config Server, API Gateway, Docker.',
+            stack: 'Java, Angular',
+            gitUrl: 'https://github.com/karlitasg7/PaymentsProject',
+        },
+        {
             name: 'Advent Of Code',
             description: 'This project is my solutions to Advent Of Code and Advent Of Code JS',
             stack: 'Java, JavaScript',
