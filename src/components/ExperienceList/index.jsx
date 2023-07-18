@@ -9,7 +9,7 @@ const experience = [
                 title: 'Lead Software Engineer',
                 startDate: 'January 2018',
                 endDate: 'Present',
-                totalTime: '12 Years',
+                totalTime: '5 Years',
                 tasks: [
                     'Implement GitLab CI/CD, reducing by 90% the time required to publish new application changes from development to production, as well as reducing code conflicts that could occur between developers when integrating new code',
                     'Implement hexagonal architecture allowing the source code to be more readable, scalable and testable, making it easier for developers to make new changes to understand the code and be able to test it',

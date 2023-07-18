@@ -11,13 +11,13 @@ export const Menu = ({selectedOption, setSelectedOption}) => {
                         onClick={() => setSelectedOption('about')}>About
                     </li>
                     <li className="text-white hover:text-blue-200 cursor-pointer"
-                        onClick={() => setSelectedOption('experience')}>My Experience
+                        onClick={() => setSelectedOption('projects')}>Projects
+                    </li>
+                    <li className="text-white hover:text-blue-200 cursor-pointer"
+                        onClick={() => setSelectedOption('experience')}>Experience
                     </li>
                     <li className="text-white hover:text-blue-200 cursor-pointer"
                         onClick={() => setSelectedOption('education')}>Education
-                    </li>
-                    <li className="text-white hover:text-blue-200 cursor-pointer"
-                        onClick={() => setSelectedOption('projects')}>Projects
                     </li>
                     <li className="text-white hover:text-blue-200 cursor-pointer"
                         onClick={() => setSelectedOption('contact')}>Contact Me

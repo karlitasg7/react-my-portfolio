@@ -14,7 +14,7 @@ export const Certification = ({item}) => {
             </p>
             {credential && (
                 <p className="mb-2">
-                    Credential ID {credential}
+                    <strong>Credential ID:</strong> {credential}
                 </p>
             )}
             {link && (

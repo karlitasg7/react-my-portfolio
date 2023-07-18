@@ -20,7 +20,7 @@ export const ProjectsList = () => {
         {
             name: 'Payments Project',
             description: 'This project is a test using microservices, implementing Eureka Server, Config Server, API Gateway, Docker.',
-            stack: 'Java, Angular',
+            stack: 'Java, Spring',
             gitUrl: 'https://github.com/karlitasg7/PaymentsProject',
         },
         {
