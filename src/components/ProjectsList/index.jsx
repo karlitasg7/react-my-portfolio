@@ -24,6 +24,13 @@ export const ProjectsList = () => {
             gitUrl: 'https://github.com/karlitasg7/PaymentsProject',
         },
         {
+            name: 'Platzi Travel',
+            description: 'This project is a simple landing page to test and learn Tailwind',
+            stack: 'Tailwind, HTML',
+            gitUrl: 'https://github.com/karlitasg7/PlatziTravel',
+            projectUrl: 'https://www.karlasequen.com/PlatziTravel/',
+        },
+        {
             name: 'Advent Of Code',
             description: 'This project is my solutions to Advent Of Code and Advent Of Code JS',
             stack: 'Java, JavaScript',
