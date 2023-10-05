@@ -15,14 +15,20 @@ const ExperiencePosition = ({position}) => {
             <p className="mb-2">
                 <strong>Stack:</strong> {stack}
             </p>
-            <p className="mb-2">
-                <strong>Tasks:</strong>
-            </p>
-            <ul className="list-disc ml-6">
-                {tasks.map((task, index) => (
-                    <li key={index}>{task}</li>
-                ))}
-            </ul>
+
+            {tasks.length > 0 && (
+                <>
+                    <p className="mb-2">
+                        <strong>Tasks:</strong>
+                    </p>
+                    <ul className="list-disc ml-6">
+                        {tasks.map((task, index) => (
+                            <li key={index}>{task}</li>
+                        ))}
+                    </ul>
+                </>
+            )}
+
         </div>
     );
 };

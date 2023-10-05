@@ -3,13 +3,26 @@ import ExperienceCompany from '../ExperienceCompany';
 
 const experience = [
     {
-        company: 'MEGAPACA, Guatemala',
+        company: 'Spec Sources, USA',
+        positions: [
+            {
+                title: 'Senior Software Developer',
+                startDate: 'October 2023',
+                endDate: 'Present',
+                totalTime: '1 Month',
+                tasks: [],
+                stack: 'C#, React, SQL Server'
+            },
+        ]
+    },
+    {
+        company: 'MEGAPACA, Guatemala (13 years)',
         positions: [
             {
                 title: 'Lead Software Engineer',
                 startDate: 'January 2018',
-                endDate: 'Present',
-                totalTime: '5 Years',
+                endDate: 'September 2023',
+                totalTime: '5 Years 9 Months',
                 tasks: [
                     'Implement GitLab CI/CD, reducing by 90% the time required to publish new application changes from development to production, as well as reducing code conflicts that could occur between developers when integrating new code',
                     'Implement hexagonal architecture allowing the source code to be more readable, scalable and testable, making it easier for developers to make new changes to understand the code and be able to test it',
@@ -55,7 +68,7 @@ const experience = [
                 tasks: [
                     'Developed desktop applications and  SOAP Web Services using .Net and Delphi for the applications that were used to manage the company\'s online store.'
                 ],
-                stack: 'Delphi,C#,Vb.net'
+                stack: 'Delphi, C#, Vb.net'
             },
         ]
     },

@@ -9,7 +9,9 @@ export const ProjectsList = () => {
             description: 'Simple Todo App',
             stack: 'React',
             gitUrl: 'https://github.com/karlitasg7/react-todo-app',
-            projectUrl: 'https://karlasequen.com/todoapp/'
+            projectUrl: 'https://karlasequen.com/todoapp/',
+            cloudUrl: 'https://testtodoappks.azurewebsites.net/',
+            cloudProvider: 'Azure',
         },
         {
             name: 'Adventure Project',

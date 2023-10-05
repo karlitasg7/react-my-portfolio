@@ -9,10 +9,10 @@ export const About = () => {
                         <h2 className="text-3xl font-bold mb-4 text-left underline">About me</h2>
                         <p className="text-gray-700 mb-4">
                             I'm a Software Engineer with 12+ years of experience developing web
-                            application with
-                            AngularJS and Angular 2+. I have experience develop in the backend API's Rest
+                            application with AngularJS, Angular 2+ and React.
+                            I have experience develop in the backend API's Rest
                             with
-                            Java8+, Kotlin, using Spring Boot with Hibernate, and using PostgreSQL
+                            Java8+, Kotlin, using Spring Boot with Hibernate, .Net and using PostgreSQL
                             and SQL Server as a database. (I also used MySQL and MongoDB but only in my
                             local machine to test it) </p>
                         <p className="text-gray-700 mb-4">

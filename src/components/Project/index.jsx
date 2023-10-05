@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Project = ({project}) => {
-    const {name, description, stack, gitUrl, projectUrl} = project;
+    const {name, description, stack, gitUrl, projectUrl, cloudUrl, cloudProvider} = project;
 
     return (
         <div className="bg-white shadow p-4 rounded mb-4">
@@ -35,6 +35,20 @@ export const Project = ({project}) => {
                         className="text-blue-500 hover:underline"
                     >
                         {projectUrl}
+                    </a>
+                </p>
+            )}
+
+            {cloudUrl && (
+                <p className="mb-2">
+                    <strong>URL on {cloudProvider}:</strong>{' '}
+                    <a
+                        href={cloudUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:underline"
+                    >
+                        {cloudUrl}
                     </a>
                 </p>
             )}
